@@ -1,0 +1,177 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #171921;
+    /* border:2px solid white; */
+    color: #d1d5e4;
+    /* overflow: hidden; */
+}
+.brief
+{
+    margin: 40px 0;
+    text-align: center;
+}
+.container
+{
+    width: 80%;
+    margin: 40px auto;
+    margin-bottom: 0;
+}
+#DBZ
+{
+    margin-top: 100px;
+}
+.descp
+{
+    padding: 50px 80px 20px 80px;
+    line-height: 20px;
+    letter-spacing: 2px;
+}
+.detail
+{
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+#DN
+{
+    margin-bottom: 80px;
+}
+footer
+{
+    text-align: center;
+    line-height: 25px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+footer p, footer span i b
+{
+    color: rgb(203, 144, 252);
+}
+h1
+{
+    text-align: center;
+    padding: 20px 0;;
+}
+h3
+{
+    padding-left: 80px;
+    /* text-align: center; */
+    color: bisque;
+    font-size: 45px;
+}
+h4
+{
+    text-align: center;
+    font-size: large;
+    padding-top: 20px;
+    height: 60px;
+    font-size: 20px;
+    animation-name: light;
+    animation-duration: 0.5s;
+    color: #ff9a22;
+    animation-iteration-count: infinite;
+}
+@keyframes light
+{
+    /* 0%  {color: #fcc17a;font-size: large;}
+    50% {color: #fcc17a;font-size: 20px;}
+    100%{color: #fcc17a;font-size: large;} */
+    0%  {color: #d2f829;}
+    50% {color: rgb(252, 69, 69);}
+    100%{color: #ffd39d;}
+}img{
+    height: 300px;
+    width: 250px;
+    margin: 0 auto;
+}
+.info1
+{
+   
+    text-align: center;
+}
+.info2
+{
+    text-align: center;
+}
+.item
+{
+    margin: 170px 0;
+    display: flex;
+    flex-direction: row;
+}
+.series
+{
+    margin-top: 50px;
+}
+.strike
+{
+    text-decoration: line-through;
+    color: rgb(203, 144, 252);
+}
+.watch p
+{
+    text-align: center;
+    
+}
+.watch p a
+{
+    
+    color: #ff9a22;
+    text-decoration: none;
+    display:inline-block;
+    margin: 20px;
+    font-size: large;
+}
+.watch p a::after
+{
+    color: #ff9a22;
+    text-decoration: none;
+}
+.watch p a:hover , .watch p a:active
+{
+    color: rgb(255, 211, 158);
+    text-decoration: none;
+}
+@media only screen and (max-width: 900px )
+{
+    .descp
+    {
+        padding: 10px;
+        margin-top: 30px;
+        line-height: 20px;
+        letter-spacing: 2px;
+    }
+    #DN
+    {
+        margin-bottom: 80px;
+    }
+    footer
+    {
+        margin-bottom: 50px;
+    }
+    h3
+    {
+        font-size: 40px;
+        text-align: center;
+        padding-left: 0;
+    }
+    img
+    {
+        height: 250px;
+        width: 206px;
+    }
+    .info2, .info1
+    {
+        text-align: center;
+        padding: 30px 0;
+    }
+    .item
+    {
+        display: block;
+        margin: 90px 0;
+    }
+}
